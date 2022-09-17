@@ -1,0 +1,23 @@
+How can you see your remote urls?
+By running git remote -v on the command line.
+
+How can you change a remote url? What command would you use?
+git remote set-url origin <a new URL>
+
+What is the difference between an HTTPS and SSH url?
+HTTPS will require you to enter your username and password each time you push your commits. SSH, if you set up your SSH keys, you won't ever have to type in your password again.
+
+Should you add and edit files on GitHub.com for projects in this class?
+No. Everything should be done through the command line. Because we will have to do extra steps when we want to make changes to our local files. It will reject your changes and you will have to do a lot of complicated steps.
+
+What format should you use for your commit messages?
+Use present tense verb in the beginning of your message. 
+
+How do you get the changes in your origin to your local repository? What command do you use?
+git fetch to see what changes are there. git pull to pull the changes.
+
+How do you stop git from tracking a certain file in your repository?
+Create a .gitignore file and add the name of the file/folder that you want git to stop tracking. This is useful for log files or files containing secrets.
+
+How do you create a new local copy of your repository? What command do you use?
+git clone <url of the repository>
